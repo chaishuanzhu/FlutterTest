@@ -116,7 +116,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.framework  = "SomeFramework"
-  spec.frameworks = 'Frameworks/*.framework'
+  spec.frameworks = 'Frameworks/App.framework','Frameworks/engine/Flutter.framework'
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
