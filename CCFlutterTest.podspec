@@ -14,6 +14,5 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = 'Frameworks/App.framework','Frameworks/Flutter.framework'
   s.resource = 'Frameworks/flutter_assets'
-  end
 
 end
