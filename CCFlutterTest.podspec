@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-  s.name         = "ESYGFSESTzzs"
+  s.name         = "CCFlutterTest"
   s.version      = "1.0.1"
   s.summary      = "AlivcLivePusherWithPlayer_iOS"
   s.description  = <<-DESC
@@ -12,9 +12,8 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/chaishuanzhu/FlutterTest.git", :tag => "#{s.version}" }
 
-  s.subspec 'ESYGFSESTzzs' do |pusher_playersdk|
-  pusher_playersdk.vendored_frameworks = 'Frameworks/App.framework','Frameworks/Flutter.framework'
-  pusher_playersdk.resource = 'Frameworks/flutter_assets'
+  s.vendored_frameworks = 'Frameworks/App.framework','Frameworks/Flutter.framework'
+  s.resource = 'Frameworks/flutter_assets'
   end
 
 end
