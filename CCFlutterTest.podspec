@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "CCFlutterTest"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "AlivcLivePusherWithPlayer_iOS"
   s.description  = <<-DESC
                    It's an SDK for aliyun video vodplay, which implement by Objective-C.
@@ -12,7 +12,8 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/chaishuanzhu/FlutterTest.git", :tag => "#{s.version}" }
 
-  s.vendored_frameworks = 'Frameworks/App.framework','Frameworks/Flutter.framework'
+  s.prepare_command = "bash ./BDFlutterDownload.sh"
+  s.vendored_frameworks = 'Frameworks/*.framework'
   s.resource = 'Frameworks/flutter_assets'
 
 end
