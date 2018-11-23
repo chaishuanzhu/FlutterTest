@@ -1,3 +1,11 @@
+#
+#  Be sure to run `pod spec lint ESYGFSESTzzs.podspec' to ensure this is a
+#  valid spec and to remove all comments including this before submitting the spec.
+#
+#  To learn more about Podspec attributes see https://docs.cocoapods.org/specification.html
+#  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
+#
+
 Pod::Spec.new do |spec|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -7,9 +15,9 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "SSFlutterSDK"
+  spec.name         = "ESYGFSESTzzs"
   spec.version      = "1.0.1"
-  spec.summary      = "fluttersdk test"
+  spec.summary      = "ESYGFSESTzzs-ios"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,10 +25,10 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-                   It's an SDK for aliyun video vodplay, which implement by Objective-C.
+                      ccbsfsfsdfheuhfufreyueutyetetueteutetesjds
                    DESC
 
-  spec.homepage     = "https://github.com/chaishuanzhu/FlutterTest"
+  spec.homepage     = "https://github.com/chaishuanzhu/FlutterTest.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -31,7 +39,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  # spec.license      = "MIT"
+  # spec.license      = "MIT (example)"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
@@ -59,6 +67,11 @@ Pod::Spec.new do |spec|
   # spec.platform     = :ios
   spec.platform     = :ios, "9.0"
 
+  #  When using multiple platforms
+  # spec.ios.deployment_target = "5.0"
+  # spec.osx.deployment_target = "10.7"
+  # spec.watchos.deployment_target = "2.0"
+  # spec.tvos.deployment_target = "9.0"
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -93,7 +106,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-  spec.resources = 'Frameworks/flutter_assets'
+  spec.resources = "Frameworks/flutter_assets/*"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -105,7 +118,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.framework  = "SomeFramework"
-  spec.frameworks = 'Frameworks/*.framework'
+  spec.frameworks = "Frameworks/App.framework", "Frameworks/Flutter.framework"
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
