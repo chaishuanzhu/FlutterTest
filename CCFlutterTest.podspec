@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "CCFlutterTest"
-  s.version      = "1.0.6"
+  s.version      = "1.0.8"
   s.summary      = "AlivcLivePusherWithPlayer_iOS"
   s.description  = <<-DESC
                    It's an SDK for aliyun video vodplay, which implement by Objective-C.
