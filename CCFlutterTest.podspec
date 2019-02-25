@@ -12,10 +12,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/chaishuanzhu/FlutterTest.git", :tag => "#{s.version}" }
 
-  s.source_files = 'Plugin/**/*'
-  s.public_header_files = 'Plugin/**/*.h'
   s.vendored_frameworks = 'Frameworks/*.framework'
   s.resource = 'Frameworks/flutter_assets'
-  s.dependency 'Reachability'
 
 end
